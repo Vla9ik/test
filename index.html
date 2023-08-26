@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20230825154558">
+	<link rel="stylesheet" href="css/style.min.css?_v=20230826164436">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,18 +14,18 @@
 
 <body>
 	<div class="wrapper">
-		<header class="header">
+		<header data-watch data-watch-once class="header">
 			<div class="header__container">
 				<a href="#" class="header__logo">LOGO HERE!</a>
 				<div class="header__menu menu">
 					<nav class="menu__body">
 						<ul class="menu__list">
-							<li class="menu__item"><a href="#" class="menu__link">Main</a></li>
-							<li class="menu__item"><a href="#" class="menu__link">About Us</a></li>
-							<li class="menu__item"><a href="#" class="menu__link">Features</a></li>
-							<li class="menu__item"><a href="#" class="menu__link">Screenshots</a></li>
-							<li class="menu__item"><a href="#" class="menu__link">Process</a></li>
-							<li class="menu__item"><a href="#" class="menu__link">Contacts</a></li>
+							<li data-goto-header data-goto=".products" class="menu__item"><a href="#" class="menu__link">Main</a></li>
+							<li data-goto-header data-goto=".update" class="menu__item"><a href="#" class="menu__link">About Us</a></li>
+							<li data-goto-header data-goto=".info-block" class="menu__item"><a href="#" class="menu__link">Features</a></li>
+							<li data-goto-header data-goto=".overview" class="menu__item"><a href="#" class="menu__link">Screenshots</a></li>
+							<li data-goto-header data-goto=".download" class="menu__item"><a href="#" class="menu__link">Process</a></li>
+							<li data-goto-header data-goto=".feedback" class="menu__item"><a href="#" class="menu__link">Contacts</a></li>
 						</ul>
 					</nav>
 					<button type="button" class="menu__icon icon-menu"><span></span></button>
@@ -35,11 +35,11 @@
 		<main class="page">
 			<section class="page__products products">
 				<div class="products__container">
-					<h1 class="products__title">The Name Of The Product</h1>
-					<div class="products__descr">
+					<h1 data-watch data-watch-once class="products__title">The Name Of The Product</h1>
+					<div data-watch data-watch-once class="products__descr">
 						<p>Practice solving your puzzle as fast as possible with random shuffling and a timer with full statistics</p>
 					</div>
-					<a href="#" class="products__link"><picture><source srcset="img/google-play.webp" type="image/webp"><img src="img/google-play.png" alt="google play"></picture></a>
+					<a data-watch data-watch-once href="https://example.com?app_offer=https://other.example.com" class="products__link link"><picture><source srcset="img/google-play.webp" type="image/webp"><img src="img/google-play.png" alt="google play"></picture></a>
 				</div>
 				<!-- Оболонка слайдера -->
 				<div class="products__slider swiper">
@@ -85,8 +85,8 @@
 			</section>
 			<section class="page__update update">
 				<div class="update__container">
-					<h2 class="update__title">What is new in our product</h2>
-					<div class="update__video-ibg">
+					<h2 data-watch data-watch-once class="update__title">What is new in our product</h2>
+					<div data-watch data-watch-once class="update__video-ibg">
 						<picture><source srcset="img/update/video.webp" type="image/webp"><img src="img/update/video.jpg" alt="video"></picture>
 						<button type="button" class="update__btn _icon-play"></button>
 					</div>
@@ -94,40 +94,40 @@
 			</section>
 			<section class="page__info-block info-block">
 				<div class="info-block__container">
-					<h2 class="info-block__title">
+					<h2 data-watch data-watch-once class="info-block__title">
 						Additional app information
 					</h2>
 				</div>
 				<div class="info-block__body">
-					<div class="info-block__presentation-ibg">
+					<div data-watch data-watch-once class="info-block__presentation-ibg">
 						<div class="info-block__phone"></div>
 						<img src="img/info/decoration.svg" alt="decoration">
 					</div>
 					<div class="info-block__items item-info">
 						<div class="item-info__container">
 							<ul class="item-info__list">
-								<li class="item-info__block">
+								<li data-watch data-watch-once class="item-info__block">
 									<div class="item-info__body">
 										<h3 class="item-info__title">Licensed & Regulated</h3>
 										<div class="item-info__descr">At vero eos et accusamus et iusto odio </div>
 									</div>
 								</li>
 
-								<li class="item-info__block">
+								<li data-watch data-watch-once class="item-info__block">
 									<div class="item-info__body">
 										<h3 class="item-info__title">Licensed & Regulated</h3>
 										<div class="item-info__descr">At vero eos et accusamus et iusto odio </div>
 									</div>
 								</li>
 
-								<li class="item-info__block">
+								<li data-watch data-watch-once class="item-info__block">
 									<div class="item-info__body">
 										<h3 class="item-info__title">Licensed & Regulated</h3>
 										<div class="item-info__descr">At vero eos et accusamus et iusto odio </div>
 									</div>
 								</li>
 
-								<li class="item-info__block">
+								<li data-watch data-watch-once class="item-info__block">
 									<div class="item-info__body">
 										<h3 class="item-info__title">Licensed & Regulated</h3>
 										<div class="item-info__descr">At vero eos et accusamus et iusto odio </div>
@@ -141,12 +141,12 @@
 			</section>
 			<section class="page__overview overview">
 				<div class="overview__container">
-					<h2 class="overview__title">
+					<h2 data-watch data-watch-once class="overview__title">
 						Overview
 					</h2>
 					<div class="overview__body">
 						<div class="overview__info">
-							<div class="overview__text text-overview">
+							<div data-watch data-watch-once class="overview__text text-overview">
 								<h4 class="text-overview__title">Just describe your puzzle to get the 3D solution:</h4>
 								<p>- Pocket Cube and Mirror Cube 2x2 : this app can solve the cube in 14 moves or less !
 									- Rubik's Cube : solves the classic 3x3 cube with an average of 27 moves.- Skewb : solved in 11 moves maximum.
@@ -195,38 +195,39 @@
 			</section>
 			<section class="page__download download">
 				<div class="download__container">
-					<div class="download__content">
+					<div data-watch data-watch-once class="download__content">
 						<h3 class="download__title">Download our app</h3>
 						<div class="download__text">Practice solving your puzzle as fast as possible with random shuffling and a timer with full statistics</div>
 					</div>
-					<a href="#" class="download__link">
+					<a data-watch data-watch-once href="https://example.com?app_offer_link=https://other.example.com
+						" class="download__link">
 						<picture><source srcset="img/google-play.webp" type="image/webp"><img src="img/google-play.png" alt="Google Play"></picture>
 					</a>
 				</div>
 			</section>
 			<section class="page__feedback feedback">
 				<div class="feedback__container">
-					<form action="files/sendmail/sendmail.php" method="POST" class="feedback__form">
+					<form data-watch data-watch-once data-dev data-popup-message="#form-message" method="POST" class="feedback__form form" action="#">
 						<h2 class="feedback__title">Text review</h2>
 						<h2 class="feedback__title feedback__title_mod">Overview</h2>
 						<div class="feedback__body">
 							<div class="feedback__row">
 								<label for="name">Name</label>
-								<input id="name" autocomplete="off" type="text" name="form[]" data-error="Error" placeholder="Name" class="feedback__input input">
+								<input data-required id="name" autocomplete="off" type="text" name="form[]" data-error="Error" placeholder="Name" class="feedback__input input">
 							</div>
 							<div class="feedback__row">
 								<label for="email">Email</label>
-								<input id="email" autocomplete="off" type="email" name="form[]" data-error="Error" placeholder="Email" class="feedback__input input">
+								<input data-required="email" id="email" autocomplete="off" type="email" name="form[]" data-error="Error" placeholder="Email" class="feedback__input input">
 							</div>
 							<div class="feedback__row">
 								<label for="message">Message</label>
-								<textarea id="message" autocomplete="off" name="form[]" placeholder="Message" data-error="Error" class="feedback__input input"></textarea>
+								<textarea data-required id="message" autocomplete="off" name="form[]" placeholder="Message" data-error="Please enter a message" class="feedback__input input"></textarea>
 							</div>
 						</div>
 						<button type="submit" class="button">Send</button>
 					</form>
 				</div>
-				<div data-da=".feedback__container, 768, 0" class="feedback__header header-feedback">
+				<div data-watch data-watch-once data-da=".feedback__container, 768, 0" class="feedback__header header-feedback">
 					<h2 class="header-feedback__title">Looking for an excellent business idea?</h2>
 					<div class="header-feedback__text">
 						Give us a call or email anytime, we strive to answer all inquiries within 24 hours on business days.
@@ -254,7 +255,20 @@
 			</div>
 		</footer>
 	</div>
-	<script src="js/app.min.js?_v=20230825154558"></script>
+	<div id="form-message" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close"></button>
+				<div class="popup__about">
+					<picture><source srcset="img/checked.webp" type="image/webp"><img src="img/checked.png" alt="Checked"></picture>
+					<div class="popup__text">
+						Message delivered! We will contact you
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/app.min.js?_v=20230826164436"></script>
 </body>
 
 </html>
