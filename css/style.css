@@ -319,10 +319,24 @@ body::after {
   visibility: visible;
 }
 
+.popup__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .popup__close {
   margin-left: auto;
   display: block;
-  position: relative;
+  position: absolute;
+  top: 1.5625rem;
+  right: 1.25rem;
   width: 1.875rem;
   height: 1.125rem;
   z-index: 5;
