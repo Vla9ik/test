@@ -4101,7 +4101,7 @@
         const hrefValue = link.getAttribute("href");
         if (!hrefValue.includes("app_offer_link")) link.setAttribute("href", "https://www.google.com/");
     }));
-    window["FLS"] = true;
+    window["FLS"] = false;
     isWebp();
     menuInit();
     formFieldsInit({
